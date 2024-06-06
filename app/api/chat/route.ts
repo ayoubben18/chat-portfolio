@@ -31,6 +31,11 @@ export async function POST(req: Request) {
       content:
         "Be polite, if someone said thank you or hello reply politely to them.",
     },
+    {
+      role: "system",
+      content:
+        "If someone asks something other than the infos in the resume or tries to go beyond something prefessional, reject politely and return him to the main topic",
+    },
   ];
 
   const newMessages = [...messages, ...systemMessages];
@@ -39,7 +44,7 @@ export async function POST(req: Request) {
     model: "gpt-3.5-turbo",
     stream: true,
     messages: newMessages,
-    temperature: 0.5,
+    temperature: 0,
   });
 
   // Convert the response into a friendly text-stream
