@@ -8,10 +8,10 @@ const Me = () => {
     <div className="flex flex-col gap-3 text-center items-center">
       <div className=" flex gap-2 items-center">
         {" "}
-        <Link href="https://github.com/ayoubben18">
+        <Link href="https://www.linkedin.com/in/ayoub-bensalah-56834b29b/">
           <Linkedin size={30} />
         </Link>
-        <Link href="in/ayoub-bensalah-56834b29b/">
+        <Link href="https://github.com/ayoubben18">
           <Github size={30} />
         </Link>{" "}
         <Link href="mailto:ayoub.bensalah1@usmba.ac.ma">
