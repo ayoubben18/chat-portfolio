@@ -53,143 +53,80 @@ export async function POST(req: Request) {
   return new StreamingTextResponse(stream);
 }
 
-const myResume: string = `Ayoub Bensalah - Computer science engineering student
-Errachidia, Draa-Tafilalet, Morocco ayoub.bensalah1@usmba.ac.ma +212625950284 in/ayoub-bensalah-56834b29b/
-https://github.com/ayoubben18
-SUMMARY
-I am a Computer Science Engineering student and a Software Developer from Morocco with a strong foundation in full-stack development,
-utilizing the cutting-edge technologies. My passion for software development is matched by my eagerness to continually embrace and master
-new technologies. I thrive in dynamic environments that challenge me to learn and grow. I am excited to contribute my skills to a forwardthinking team while expanding my expertise with the latest technological advancements in the field.
-EXPERIENCE
-Software Developer
-Capitaletech April 2024 - Present, Remote
-Engineered a scalable microservices architecture for a CV ranking platform, powered by AI tools ( OPENAI API, MISTERAL, SUPABASE EDGE
-...).
-•
-• Ranking CVs using the latest AI technologies and modern tools.
-• Cutting edge technologies and frameworks and libraries .
-• Using Next.js with the latest technologies for the best output and user experience
-PROJECTS
-Game Genre Web API
-Mosh Academy • https://github.com/ayoubben18/express-mongodb-vidly-backend
-• Designed and implemented a robust backend system utilizing Express, Node.js, and MongoDB, specifically for game genre categorization.
-• Ensured application reliability and maintainability through comprehensive unit and integration testing with Jest.
-• Deployed the API on Heroku, achieving high availability and easy access for frontend applications.
-Event Organizer Platform
-Udemy • https://github.com/ayoubben18/Activities
-• Developed a .NET Core and React-based platform, applying Clean/Onion architecture for enhanced scalability and maintainability.
-Created a user-friendly interface allowing participants to effortlessly organize and join various events, mirroring social network
-functionalities.
-•
-• Integrated advanced security measures to protect user data and ensure a safe, community-driven environment.
-AutoBidHub
-Udemy • https://github.com/ayoubben18/AutoBidHub
-• Engineered a microservices-based full-stack application using .NET Core and Next.js, targeting the automotive auction market.
-• Implemented Docker and Kubernetes for efficient deployment and scaling, catering to a growing user base.
-• Facilitated real-time bidding and auction management, providing a comprehensive solution for car sales and purchases.
-Gaming Information Dashboard
-Mosh Academy • https://github.com/ayoubben18/catagames
-• Crafted a front-end application with React and TypeScript to aggregate and display extensive gaming information.
-• Utilized Zustand for state management and React-Query for efficient data fetching, enhancing user experience with responsive design.
-• Adopted ChakraUI for UI development, prioritizing accessibility and modern aesthetics in design.
-InfoChain Club Portal
-https://github.com/ayoubben18/info-chain
-• Led the development of InfoChain's official Next.js website, showcasing club initiatives and member projects.
-• Configured a MongoDB Cloud backend for robust data storage and retrieval, ensuring seamless content management.
-• Designed to engage visitors with detailed project insights and club information, strengthening community outreach and participation.
-ChatPDF
-Personal • https://github.com/ayoubben18/chat-pdf • March 2024 - March 2024
-• Interacting with LLMs APIs to explore more about the AI world.
-• Handling vector databases and edge runtime.
-• Using Langchain tools to add more functionalities.
-.
-.
-EDUCATION
-Génie Informatique (Computer Science Engineering)
-National School of Applied Sciences (ENSA) • Fes , Morocco • 2026
-Additional Coursework and Certifications
-Additional Coursework and Certifications
-• boot.dev: Specialized in CI/CD practices and Go.
-• Mosh Academy: In-depth learning of React and Node.js.
-• Udemy: Advanced courses in Docker, Kubernetes, .NET, Next.js, and Microservices Architecture. Self-taught in Next.js, and databases.
-• Coursera Certifications: Eight certifications in data science and data analytics.
-• Self-Directed Learning: Next.js, UI libraries, Solidity, Hardhat for blockchain development, emphasizing microservices architecture.
-Baccalaureate in Physical Science
-Lalla Salma High School • Rissani, Morocco • 2021
-CERTIFICATIONS
-LEARN CI/CD
-Boot.dev • 2024
-• Build and test a real codebase, and then automate that same build process to deploy an application to the cloud.
-• GitHub Actions, Docker, GCP, Cloud Run, and Turso.
-Cypher Fundamentals
-Neo4j • 2024
-• Learn Cypher Query Language
-Build a Neo4j-backed Chatbot with TypeScript
-Neo4j • 2024
-• Build a chatbot using Neo4j, Langchain and Next.js.
-Build a Microservices app with .Net and NextJS from scratch
-Udemy • 2024
-• Microservices architectures with .NET 8
-• Advanced software development topics, and DevOps integration.
-The Complete Node.js Course
-Code With Mosh • 2023
-• Understand the fundamentals of Node.js and its role in server-side JavaScript development
-• Master the core modules and APIs in Node.js
-• Build RESTful APIs using Node and Express.js
-• Build new features using test-driven development (TDD)
-React 18 for Beginners
-Code With Mosh • 2023
-• Confidently build front-end apps with React and TypeScript
-• Write clean code like a pro
-• Troubleshoot errors with ease
-React 18: Intermediate Topics
-codewithmosh • 2023
-• Confidently build front-end apps with React and TypeScript
-• Fetch and update data using React Query
-• Structure your React projects for maintainability
-• Manage application state using Zustand
-LEARN SQL
-Boot.dev • 2023
-• Learn all the basics of Structured Query Language in this comprehensive SQL course.
-• architectural design patterns and how to use SQL in a production environment.
-LEARN GO
-Boot.dev • 2023
-• Writing performant, idiomatic Go code.
-.
-.
-• Channel, Mutexes, Generics, Local Development, Pointers
-• Build a terminal pokedex app using the pok api
-Neo4j & LLM Fundamentals
-Neo4j • 2023
-• Learn how to use Neo4j with Large Language Models.
-• Use Langchain to facilitate the interaction with LLMs.
-• Make easy the replacement of the models by writing reusable code.
-Graph Data Modeling Fundamentals
-Neo4j • 2023
-• Learn how to design a Neo4j graph using best practices.
-• Utilize real world examples and case studies.
-Data Analysis with Python
-IBM • 2023
-• Learn how to use python with the latest data analysis libraries.
-• Hands on practice and strict exams.
-Python for Data Science, AI & Development
-IBM • 2023
-• Learn advanced Python and how to use it in data science.
-INVOLVEMENT
-President
-Ensa fes • Infochain • November 2023 - Present
-• Practicing Leadership, Exp technology and innovation.
-• Practicing Communication and team work to increase productivity and results.
-• Exploring new technologies and learning from seniors and colleagues.
-Design Lead
-Ensa fes • IEEE ENSAF Student Branch • November 2023 - Present
-• Design lead of the SPAx event which hosted the first time in Morocco.
-• Leadership and communication.
-• Working with different mindsets and critical deadlines.
-SKILLS
-Languages: C#, JavaScript, TypeScript, Go, Python, Java, Solidity, Cypher, PHP, HTML, CSS, SQL
-Frameworks/Libraries: React, Next.js, Solid.js, .NET, Node.js, Gin, Hardhat
-Technologies: Docker, Kubernetes, CI/CD, MySQL, JetBrains IDEs, Identity Server (Duende), Postman, RabbitMQ, Neo4j
-Databases: MongoDB, SQLite, SQL Server, PostgreSQL, MySQL, Supabase, Turso, Pinecone, AuraDb, Graph Databases, Vector Stores
-Concepts: Microservices Architecture, Containerization, Orchestration, CI/CD, Blockchain Development, Webhooks, knowledge graphs, Edge
-Runtime`;
+const myResume: string = `Ayoub Bensalah  
+both GraphQL and REST APIs. Used Jest for testing, 
+with React Query and Zustand for state management.  
+Software and Generative AI Engineer  
+Meknes, Morocco  
+Gmail: ayoub.bensalah1@usmba.ac.ma  
+Tel: +212 625-950284 
+Linkedin:   
+https://www.linkedin.com/in/ayoub-bensalah-56834b29b/ 
+github: https://github.com/ayoubben18  
+My Website: ( you can ask anything there ) 
+https://ayoubbensalah.vercel.app/  
+Summary:  
+I'm a Software and AI Developer with 1 year of 
+experience in full-stack development. I'm passionate 
+about embracing and mastering new technologies, and I 
+thrive in dynamic environments that challenge me to 
+learn and grow. I'm eager to contribute my skills to a 
+forward-thinking team while expanding my expertise 
+with the latest advancements in the field.  
+SKILLS:  
+Languages: C#, JavaScript, TypeScript, Go, Python, Java, 
+Solidity, Cypher, PHP, HTML, CSS, SQL, GraphQL  
+Frameworks/Libraries: React, Next.js, Solid.js, .NET, Node.js,  
+Gin, Hardhat, Jest, Bun, Hono, Deno, LangChain, LangSmith,  
+Vercel AI SDK, Jest, Express.js, Apollo GraphQL, React Query  
+Technologies: Docker, Kubernetes, CI/CD, MySQL, JetBrains  
+IDEs, Identity Server (Duende), Postman, RabbitMQ, Neo4j,  
+Google Cloud Platform, AWS, Vercel, Fly.io, ELK stack, testing,  
+AWS  
+Databases: MongoDB, SQLite, SQL Server, PostgreSQL,  
+MySQL, Supabase, Turso, Pinecone, AuraDb, Graph 
+Databases, Vector Stores, Redis, Qstash  
+EXPERIENCE:  
+Software and AI Engineer– CapitaleTech  
+15 April 2024 – Now , Remote  
+Architected a scalable microservices platform for CV 
+ranking (Talentino), leveraging LLMs (Bedrock, OpenAI 
+…), Neo4j, and Deno Edge Runtime. Integrated Redis 
+for caching, Qstash for background and cron jobs, and 
+Built on AWS, utilizing Lambda, Step Functions, Event 
+Bridge and various AWS services for seamless 
+integrations.  
+Led development with Next.js (TailwindCSS, TypeScript, 
+Shadcn UI, Supabase, Langchain) and integrated 
+microservices using Bun, Hono, FastAPI, and Supabase 
+Edge Functions.  
+Employed Google Cloud Platform for real-time Gmail 
+resume import and processing.  
+Served as the primary developer, responsible for the 
+project’s scalability and architecture.  
+INVOLVEMENT:  
+• President: ENSA Fez – InfoChain - November  
+2023 – November 2024 
+• Design Lead: ENSA Fez – IEEE Student 
+Branch - November 2023 – November 2024 
+EDUCATION:  
+• Baccalaureate in Physical Science Lalla 
+Salma High School • Rissani, Morocco •  
+2021  
+• Génie Informatique (Computer Science 
+Engineering) National School of Applied 
+Sciences (ENSA) • Fes , Morocco  
+Open-source contributions:  
+• Dynamic form builder, a contribution to the awesome 
+shadcn community that can help you build forms the 
+google form way but fancier using shadcn 
+components,  you can use it in your app to let your 
+users create forms and share their links for other 
+users to fill if your app is about statistics or 
+recruitement:  
+Github repo: 
+https://github.com/ayoubben18/sharableform-builder   
+Live example: https://sharable-form-builder.vercel.app/   
+Passions:  - - 
+Content creation  
+Martial arts  `;
