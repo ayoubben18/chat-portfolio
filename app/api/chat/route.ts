@@ -125,7 +125,7 @@ users create forms and share their links for other
 users to fill if your app is about statistics or 
 recruitement:  
 Github repo: 
-https://github.com/ayoubben18/sharableform-builder   
+https://github.com/ayoubben18/sharable-form-builder   
 Live example: https://sharable-form-builder.vercel.app/   
 Passions:  - - 
 Content creation  
